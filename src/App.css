@@ -1,0 +1,51 @@
+
+.App {
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #222;
+  
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease; 
+}
+.card:hover {
+  transform: scale(1.1); 
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+}
+
+
+input {
+  color: #000;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.name{
+  color:white;
+}
+
